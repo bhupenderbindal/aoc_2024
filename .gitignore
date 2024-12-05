@@ -3,3 +3,5 @@
 
 # ignoring trash 
 /.ignore/
+
+*.txt
