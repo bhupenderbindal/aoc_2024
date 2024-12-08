@@ -176,7 +176,6 @@ def part2(rows, W, H):
         
         if a_neighbors in permutations:
             sum += 1
-            # breakpoint()
         a_cw_list.append(a_neighbors)
 
     print(a_cw_list)

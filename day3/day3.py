@@ -100,7 +100,6 @@ def part2(istr):
     # for every do() string we need to find first dont() string if exists
     # and extract the part between them
     for dostr in do_strs:
-        # breakpoint()
         try:
             i = dostr.index("don't()")
             s = dostr[:i]

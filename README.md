@@ -11,7 +11,7 @@
 
 ```
 _______________________
-|   Day | Time(HH:MM) |
+|   Day | Time(HH:MM) |(comments)
 |-------+-------------|
 |   1   | 00:39       |
 |-------+-------------|
@@ -23,7 +23,11 @@ _______________________
 |-------+-------------|
 |   5   | 01:48       |
 |-------+-------------|
-|   6   | 00:00       |
+|   6   | 06:00       |(multidimensional list name referencing, set-reset logic for loop condition, bad execution time)
+|-------+-------------|
+|   7   | 03:30       |(needed itertools.product function to get arrangements)
+|-------+-------------|
+|   8   | 02:05       |(the wording is too funny after one solves it otherwise: 'how to write english to confuse')
 |-------+-------------|
 
 ```
