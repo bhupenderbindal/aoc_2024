@@ -3,10 +3,10 @@
 
 ## Notes
 - Suggeestion: Use pen-paper to outline before jumping to code
-- Tea and water sips are included in the timings
+- Tea and water sips are included in the timings, long breaks excluded
 - No other tool is used except the python documentation
 - No templates
-- First simplest solution
+- First simple solution - could be refactored
 
 
 ```
@@ -28,6 +28,22 @@ _______________________
 |   7   | 03:30       |(needed itertools.product function to get arrangements)
 |-------+-------------|
 |   8   | 02:05       |(the wording is too funny after one solves it otherwise: 'how to write english to confuse')
+|-------+-------------|
+|   9   | 03:25       |(missed conditions: language bit me; given example not sufficient to get correct algo; use names from problem statement: helps in debugging)
+|-------+-------------|
+|   11  | 00:00       |
+|-------+-------------|
+|   12  | 00:00       |
+|-------+-------------|
+|   13  | 00:00       |
+|-------+-------------|
+|   14  | 00:00       |
+|-------+-------------|
+|   15  | 00:00       |
+|-------+-------------|
+|   16  | 00:00       |
+|-------+-------------|
+|   17  | 00:00       |
 |-------+-------------|
 
 ```
