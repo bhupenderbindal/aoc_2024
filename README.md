@@ -31,6 +31,8 @@ _______________________
 |-------+-------------|
 |   9   | 03:25       |(missed conditions: language bit me; given example not sufficient to get correct algo; use names from problem statement: helps in debugging)
 |-------+-------------|
+|   10  | 2:55        |(debugging missed conditions; recursion and state of recording variable)
+|-------+-------------|
 |   11  | 00:00       |
 |-------+-------------|
 |   12  | 00:00       |
