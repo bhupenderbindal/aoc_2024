@@ -33,7 +33,7 @@ _______________________
 |-------+-------------|
 |   10  | 2:55        |(debugging missed conditions; recursion and state of recording variable)
 |-------+-------------|
-|   11  | 00:00       |
+|   11  | 02:20       |(exponential sized array with naive approach; hashing solves: many to one)
 |-------+-------------|
 |   12  | 00:00       |
 |-------+-------------|

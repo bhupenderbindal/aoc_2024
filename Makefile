@@ -1,4 +1,4 @@
-day=day10
+day=day11
 
 run:
 	cd ./${day}/ && python ${day}.py 
