@@ -5,6 +5,8 @@
 - Suggeestion: Use pen-paper to outline before jumping to code
 - Tea and water sips are included in the timings, long breaks excluded
 - No other tool is used except the python documentation
+    - exception:
+    1. day 13: scipy's linalg.solve
 - No templates
 - First simple solution - could be refactored
 
@@ -35,13 +37,13 @@ _______________________
 |-------+-------------|
 |   11  | 02:20       |(exponential sized array with naive approach; hashing solves: many to one)
 |-------+-------------|
-|   12  | 00:00       |
+|   12  | 06:00       |(bad logic to crawler logic for part1, could not solve part2 on same day: still not an elegant solution)
 |-------+-------------|
-|   13  | 00:00       |
+|   13  | 01:35       |(kind of a cheat: used scipy linalg.solve for solving pair of equations)
 |-------+-------------|
-|   14  | 00:00       |
+|   14  | 01:23       |(part2 meaning of tree picture not understable, even no symmetric shape)
 |-------+-------------|
-|   15  | 00:00       |
+|   15  | 06:20       |(part2 took too long)
 |-------+-------------|
 |   16  | 00:00       |
 |-------+-------------|
