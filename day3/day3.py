@@ -1,4 +1,3 @@
-
 def find_all_mul(s):
     all_mul_str = []
 
@@ -9,8 +8,9 @@ def find_all_mul(s):
             print("no 'mul('  found exiting")
             break
         all_mul_str.append(s[i:])
-        s = s[i+4:]
+        s = s[i + 4 :]
     return all_mul_str
+
 
 def find_all_xs(s, x):
     all_mul_str = []
@@ -21,33 +21,35 @@ def find_all_xs(s, x):
             print(f"no {x}  found exiting")
             break
         all_mul_str.append(s[i:])
-        s = s[i+4:]
+        s = s[i + 4 :]
     return all_mul_str
 
 
 def find_mullwithend(s):
     try:
         i = s.index(")")
-        mulend = s[:i+1]
+        mulend = s[: i + 1]
         # print(mulend)
         return mulend
     except ValueError as e:
         print("no closing bracket found, exiting")
 
+
 def is_int(s):
     for i in s:
-        if i not in ['0','1','2','3','4','5','6','7','8','9']:
+        if i not in ["0", "1", "2", "3", "4", "5", "6", "7", "8", "9"]:
             return None
     return int(s)
+
 
 def find_ints(s):
     # trim mul(
     i = s.index("mul(")
-    s = s[i+4:]
+    s = s[i + 4 :]
     # trim )
     i = s.index(")")
     s = s[:i]
-    
+
     try:
         splits = s.split(",")
         if len(splits) != 2:
@@ -60,20 +62,20 @@ def find_ints(s):
                 print(f"s1 is int: {i1}")
             else:
                 return None
-            
+
             i2 = is_int(s2)
             if i2:
                 print(f"s2 is int: {i2}")
             else:
                 return None
-            
+
             m = i1 * i2
             return m
-            
+
     except Error as e:
         print("split by comma error, exiting")
 
-    
+
 def part1(istr):
     sum = 0
 
@@ -106,7 +108,7 @@ def part2(istr):
         except ValueError as e:
             print(f"no don't()  found exiting")
             s = dostr
-        
+
         # stripping the do()
         s = s[4:]
         # each do() can have multiple do() which causes repetition so we extract before next do to avoid this
@@ -116,12 +118,12 @@ def part2(istr):
         except ValueError as e:
             print(f"no other do() found exiting")
             # s = dostr
-        
+
         # for the part extracted we calculate the mul from part1
         s2 += part1(s)
 
     print(s2)
-        
+
 
 def main():
 
@@ -129,7 +131,7 @@ def main():
     with open("./day3_input.txt") as f:
         lines = f.readlines()
 
-    istr =""
+    istr = ""
     # input is a single, so should be a single string
     for line in lines:
         istr += line
@@ -137,6 +139,7 @@ def main():
     print(istr)
     part1(istr)
     # part2(istr)
-    
+
+
 if __name__ == "__main__":
     main()

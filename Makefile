@@ -6,3 +6,7 @@ run:
 
 run1:
 	cd ./${day}/ && python ${day}_1.py $(file)
+
+
+format:
+	black .

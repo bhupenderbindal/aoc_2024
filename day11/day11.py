@@ -1,5 +1,5 @@
-
 from functools import cache
+
 
 # this cache is little useful for the solution
 @cache
@@ -10,10 +10,10 @@ def rule_map3(x):
     elif len(str(x)) % 2 == 0:
         sx = str(x)
         l = len(sx)
-        return [int(sx[0:int(l/2)]), int(sx[int(l/2):])]
+        return [int(sx[0 : int(l / 2)]), int(sx[int(l / 2) :])]
     else:
-        return [x*2024]
-    
+        return [x * 2024]
+
 
 def part2(inp_arr, n):
 
@@ -31,18 +31,18 @@ def part2(inp_arr, n):
     print(fdict)
 
     # iterate over for remaining times
-    for _ in range(n-1):
+    for _ in range(n - 1):
         newdict = dict()
         for k, v in fdict.items():
             tarr = rule_map3(k)
             # tarr has 1 or two ele
             for x in tarr:
                 if x in newdict.keys():
-                    newdict[x] += 1 * v 
+                    newdict[x] += 1 * v
                 else:
                     newdict[x] = 1 * v
         fdict = newdict
-    
+
     return sum(newdict.values())
 
 
@@ -59,11 +59,10 @@ def part1(inp_arr, n):
     return len(new_arr)
 
 
-
 def main():
 
     # with open("./day11_example.txt") as f:
-    with open("./day11_input.txt") as f:   
+    with open("./day11_input.txt") as f:
         lines = f.readlines()
 
     line = lines[0].rstrip("\n").split(" ")
@@ -72,11 +71,11 @@ def main():
 
     # num of blinks
     n = 25
-    
+
     res1 = part1(inp_arr, n)
     print(f"res1 without hashmap = {res1}")
 
-    # as the number of items remain less it becomes item->frequency  
+    # as the number of items remain less it becomes item->frequency
     res2 = part2(inp_arr, n)
     print(f"res1 = {res2}")
 
@@ -84,6 +83,7 @@ def main():
 
     res2 = part2(inp_arr, n)
     print(f"res2 = {res2}")
+
 
 if __name__ == "__main__":
     main()

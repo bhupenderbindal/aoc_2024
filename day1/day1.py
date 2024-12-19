@@ -1,15 +1,14 @@
-
-
 def part1(list1, list2):
     list1.sort()
     list2.sort()
-    
+
     abs_diff_list = []
 
-    for i,_ in enumerate(list1):
+    for i, _ in enumerate(list1):
         abs_diff_list.append(abs(list1[i] - list2[i]))
 
     print(sum(abs_diff_list))
+
 
 def part2(list1, list2):
 
@@ -38,11 +37,11 @@ def main():
         lines = f.readlines()
 
     for line in lines:
-        a, b = line.split('   ')
-        b = b.rstrip('\n')
+        a, b = line.split("   ")
+        b = b.rstrip("\n")
         list1.append(int(a))
         list2.append(int(b))
-    
+
     print("Part 1:")
     part1(list1, list2)
     print("------------")
