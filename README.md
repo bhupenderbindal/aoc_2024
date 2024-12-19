@@ -45,9 +45,11 @@ _______________________
 |-------+-------------|
 |   15  | 06:20       |(part2 took too long)
 |-------+-------------|
-|   16  | 00:00       |
+|   16  | 00:00       |(could not solve)
 |-------+-------------|
-|   17  | 00:00       |
+|   17  | full day    |(read about graphs from Skiena, Steven S and solve on next day; then first part was easier and second part also worked is direct approach)
+|-------+-------------|
+|   18  |             |
 |-------+-------------|
 
 ```
