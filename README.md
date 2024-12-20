@@ -47,9 +47,13 @@ _______________________
 |-------+-------------|
 |   16  | 00:00       |(could not solve)
 |-------+-------------|
-|   17  | full day    |(read about graphs from Skiena, Steven S and solve on next day; then first part was easier and second part also worked is direct approach)
+|   17  | 03:00       |(part1: one statement misunderstood caused long time; part two: could not solve)
 |-------+-------------|
-|   18  |             |
+|   18  | full day    |(read about graphs from Skiena, Steven S and solve on next day; then first part was easier and second part also worked is direct approach)
+|-------+-------------|
+|   19  |             |(didnt attempt due to backlog of day18)
+|-------+-------------|
+|   20  |             |()
 |-------+-------------|
 
 ```
