@@ -8,7 +8,7 @@
     - exception:
     1. day 13: scipy's linalg.solve
 - No templates
-- First simple solution - could be refactored
+- First simple solution - could be refactored for improving time and mem efficiency
 
 
 ```
@@ -53,7 +53,20 @@ _______________________
 |-------+-------------|
 |   19  |             |(didnt attempt due to backlog of day18)
 |-------+-------------|
-|   20  |             |()
+|   20  | 03:25       |(part1: again wrong first approach ends up consuming time until the correct (then obvious) solution is found) 
+|       |             |(required change: explore the full plan on paper and reject wrong approaches before iterating in code to save time from wrong approaches)
+|-------+-------------|
+|   21  | 00:00       |(could not solve)
+|-------+-------------|
+|   22  | 00:43       |(typo bug took time, could not solve part2)
+|-------+-------------|
+|   23  | 00:00       |(code that should deal with specific constraints and conditions were missing and adding them took time, could not solve part2)
+|-------+-------------|
+|   24  | 02:00       |(could not solve part2)
+|-------+-------------|
+|   25  | 01:30       |(solved without using numpy, could not solve part2 due to missing stars)
 |-------+-------------|
 
 ```
+## Learnings
+- TODO: consolidate learnings 
