@@ -10,6 +10,8 @@
 - No templates
 - First simple solution - could be refactored for improving time and mem efficiency
 
+### Cool animation of robot moving boxes from day15-part2 
+![day15-part2](day15/cd.gif)
 
 ```
 _______________________

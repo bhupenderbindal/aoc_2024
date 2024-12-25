@@ -1,4 +1,4 @@
-day=day20
+day=day15
 file=./${day}_example.txt ./${day}_input.txt 
 
 run:
